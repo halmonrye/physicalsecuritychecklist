@@ -1,0 +1,531 @@
+# -----------------------------------------------------------------------------
+# Physical Security Checklist.txt
+# -----------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------------
+# Version history:
+#
+# 0.1 (2017-10-10) - hn
+# * Initial version.
+#
+# This is a A veryveryvery rough checklist for items to address in physically 
+# securing a builing/campus. 
+# -----------------------------------------------------------------------------
+
+# -------------------------------------------------------------------------------
+# Overview
+# -------------------------------------------------------------------------------
+
+# Here are some sample processes to consider using in developing your physical security program.
+
+Security Hardening Process
+	• Work with client to determine security budget for the next fiscal year
+	• Interview client to determine which level of security they wish to meet (see pre-determined security levels in Physical Security Checklist)
+	• Run through the Physical Security Checklist  to catalog current security posture
+	• Determine which areas of Physical Security do not meet UpTime Security Standards for the security level chosen by the client
+	• Create projects based on findings and assign estimated hours and cost required to complete each project
+	• Present findings client
+	• Work with client to prioritize projects based on budget and need
+
+Application and File Security Levels:
+	• Level 0 – Unclassified - Available for public use or consumption
+	• Level 1 – Confidential – For use by company personnel, or authorized vendors/consultants
+	• Level 2 – Secret – Company use only
+	• Level 3 – Top Secret – Authorized company personnel only
+ 
+Physical Security Levels
+	• Level 0 – Public – Available to public traffic – Shipping and receiving, lobby, public conference room
+	• Level 1 – Sensitive – For use by company personnel, or authorized vendors/consultants, and escorted visitors – work areas
+	• Level 2 – Restricted - Company personnel only, or authorized vendors/consultants – wiring and utility closets, IDFs
+	• Level 3 – Confidential - Authorized company personnel only – server room, MDF
+
+
+References
+See:   
+	http://www.dm.usda.gov/physicalsecurity/physicalcheck.pdf
+	http://www.sans.edu/research/security-laboratory/article/281
+	http://transit-safety.volpe.dot.gov/training/Archived/.../physicalsecurity.doc
+	http://www.crimewise.com/airport/manual.pdf
+	
+Security Zones
+	• Ring 0 - Areas on the perimeter of the business building
+	• Ring 1 - Immediate area around the business building/environmental (fire, floods, moisture, power)
+	• Ring 2 - Internal location of the business building
+	• Ring 3 - Human factors
+
+# -------------------------------------------------------------------------------
+# Begin Checklist
+# -------------------------------------------------------------------------------
+
+Building Access
+	Dumpsters
+		Install secure padlock on the dumpster or place dumpster in locked enclosure
+	Emergency Routes (snow routes, floor routes, etc.)
+		Post emergency exit routes throughout building space
+		Post snow routes (information available from City) in break rooms
+	Secure building utility shutoffs
+		Lockable gas shutoff with Notice on where to find the key
+		Lockable water shutoff with Notice on where to find the key
+		Lockable breaker boxes with Notice on where to find the key
+		Lockable Main breaker switches with Notice on where to find the key
+	Note Other Building Tenants
+		Business type
+		Number of employees
+		Hours of operations, etc.
+	Secure dock/shipping areas at all times
+	Roof hatches and skylights
+	Sewer/tunnel/utility building access is secured
+	Security vestibules (mantraps)
+	Solid constructed doors for passages between common areas and protected areas
+	Are all doorways and exits easily accessible and clear of blockage? 
+	Are doors and windows alarmed and monitored?
+	Do all sliding windows have anti-slide locks? 
+	Can windows, heating-ventilating air conditioning (HVAC) equipment, and doors be secured in the event of the release of hazardous material?
+	Signage
+		Does the organization’s website provide detailed information on the building’s location?
+		Does the organization’s website provide detailed information on the location of the management team? 
+		Posted Hours of Operation?
+		Emergency contact info
+		Are details on the business’ location listed on an outside directory? 
+		Notice on where to find the key for Lockable gas shutoff
+		Notice on where to find the key for Lockable water shutoff 
+		Notice on where to find the key for Lockable breaker boxes 
+		Notice on where to find the key for Lockable Main breaker switches
+		No Trespassing
+		
+Cabling Access
+	ISP Cabling
+		Cable enclosed in unbroken/continuous conduit to outside building access point?
+	Internal Network Cabling
+		Run in spaces within designated security walls?
+	External Network Cabling
+		Cable enclosed in unbroken/continuous conduit to final external destination point?
+		Video Cables
+	IDF Room Security
+		Locking room door or secure lockable equipment cabinets or racks
+	MDF Room Security
+		Locking room door
+		Secure lockable equipment cabinets or racks
+		Fire extinguisher (Class C)
+	Cabling Access Maintenance
+	Cabling Access Auditing
+	Cabling Access Documentation
+	
+Computer Access
+	Server Room Protection
+		Access Control Cards
+		Biometrics
+		User Awareness
+	Server Racks
+		Key Locks
+		Wired keyboards and mice - not wireless
+	Workstations
+		Cable Anchors
+		Wired keyboards and mice - not wireless
+	Laptops
+		Carrying Cases should be hard cases that are lockable - preferably waterproof:
+			https://www.nanuk.com/nanuk-920/
+			http://www.pelican.com/us/en/product/watertight-protector-hard-cases/medium-case/laptop-case/1470/
+	Server Room Security
+	Screen Locking
+	Computer Access Maintenance
+	Computer Access Auditing
+	Computer Access Documentation
+
+Contracts or Agreements
+	Shared Physical Access
+	Contracts or Agreements Maintenance
+	Contracts or Agreements Auditing
+	Contracts or Agreements Documentation
+	
+Fencing and Gates
+	Is the perimeter of the facility grounds clearly defined by a fence, wall, vegetation, or other type of physical barrier?
+	Does the barrier limit or control vehicle or pedestrian access to the facility?
+	Is the fence or barrier a deterrent to entry?
+	Are there any places along the fence where the ground is washed away?
+	Are there any places along the fence where streams circumvent the fence?
+	How are fence gaps protected?
+	
+	Fencing Material and Construction Standards
+		Bike Storage Areas
+		Property Perimeter
+		Parking Areas
+	Fencing Clearance Standards
+		20' clearance on each side
+		No material storage within clearance area
+	Gate Standards
+		Clearance
+		Do swing gates close without leaving a gap? 
+		Gate Signage
+	Security Signage
+		No Trespassing
+		Company and Contact info?
+	Material Stacking Near Fencing and Gates
+	Fencing and Gates Maintenance
+	Fencing and Gates Auditing
+	Fencing and Gates Documentation
+		Map all gates and holes in fencing
+		Note maintenance/replacement schedules
+
+Fire and Flood Detection and Suppression
+	Fire Detection
+		On Own VLAN, away from normal network or voice traffic
+	Flood Detection
+		On Own VLAN, away from normal network or voice traffic
+	Automatic Fire Extinguishing System
+		On Own VLAN, away from normal network or voice traffic
+	Fire suppression Emergency override
+		Accessible only by Administrative or Security Staff ?
+	Separate system for computer equipment
+		Gaseous (CO2, F200, or other) non-gritty substance based system - Class C
+	Manual Fire alarms?
+	Fire alarm lights?
+	Automatic water shutoff
+	Many more questions about this area……
+	Fire and Flood Detection and Suppression Maintenance
+	Fire and Flood Detection and Suppression Auditing
+	Fire and Flood Detection and Suppression Documentation
+	
+Guard Service
+	Contractor name, address, phone, e-mail?
+	Written instructions for guard duties and assignments?
+	Guard Schedule
+	Clock stations
+	Activity reports?
+	Do guards have keys to gates?
+	Area guards armed?
+	Do the guards have to take periodic polygraph tests?
+	Communications systems
+		Radio
+		Pak set
+		Phone
+		Alarm switch
+	Have all guards passed CPR test?
+	Do guards review CCTV recordings?
+	Guard Service Maintenance
+	Guard Service Auditing
+	Guard Service Documentation
+	
+Intrusion Detection
+	Does alarm system meet UL standards?
+	Emergency power for all parts of alarm system?
+	Does restoring door or window to original position stop alarm?
+	Duress alarm ("panic button") available?  Procedures posted near alarm panels?
+	List of Employees and vendors with alarm codes
+	Alarm vendor info in key information storage
+	Log checking process
+	Motion Detection
+	Heat Detection
+	Visual Alarms
+	Audible Alarms
+	Alarm Notification
+		Who does the alarm system notify?
+	Intrusion Detection Maintenance
+		Review alarm maintenance contract
+		Battery testing
+	Intrusion Detection Auditing
+	Intrusion Detection Documentation
+		Alarm system procedures
+		Service records
+		Location of sensors, control panels, control boxes
+		
+	
+ISP Device Access
+	ISP Device Access Maintenance
+	ISP Device Access Auditing
+	ISP Device Access Documentation
+
+Landscaping
+	Is the facility visible from the street during both the day and night so that roving patrols can conduct external security checks?
+	Are all entrances and exits visible from a distance and well-lit in the evening? 
+	Tree Trimming Standards
+		Are tree limbs cut at least six feet from ground level? 
+	Bush Trimming Standards
+		Are shrubs cut to mid-point of window or lower? 
+	Burms
+		Install burms to secure access to parking areas
+
+Lighting
+	Security Lights
+		Is the entire perimeter lit?
+		Are perimeter lights wired in series or parallel (better)?
+		Are wire-access boxes secure from un-authorized access?
+		Are entrances lit?
+		Is lighting suitable for CCTV?
+		Are public areas lit?
+		Are lights on all night?
+		Are all light fixtures suitable for outdoor use?
+		Do light patterns overlap in case of burn out?Do lights at automotive gates light the interior of vehicles?
+		Are lights controlled manually or automatically?  For automatic lighting, is there a manual override?
+		Are lighting control switches secured from unauthorized personnel?
+	Have you installed motion-activated lights around entrances and exits? 
+	Are all pathways and parking areas well-lit?
+	Lighting Maintenance
+		Inspection schedule
+		Inspect auxiliary lighting power sources
+	Lighting Auditing
+	Lighting Documentation
+
+Locks and Keycards and Keys
+	Tail-gating
+		Is there a tailgating policy in place?
+		Is tailgating policy enforced?
+	Proximity Key Cards
+		Integrate with Picture Identification Cards
+		Manage with internal staff if possible
+		Integrate with vendor management
+		Limit console access to authorized personnel
+		Back up to redundant disaster recovery (DR) site
+		Ensure system is on a uninterrupted power supply (UPS) in event of power failure
+		Require two-factor authentication to perimeter doors/sensitive areas - Authentication factors come in three different types: knowledge factors ("something you know"), possession factors ("something you have"), and inherence factors ("something you are").
+		Set up time zones based on employee hours/business need
+		Integrate with burglar alarm system
+		Color code access cards for employees, visitors, and vendors
+		Monitor and log all transactions in the system
+		Disable cards immediately upon termination or loss of card
+		Access Card Vulnerability
+		Wiegand Hack
+		Wiegand Vulnerability
+		Card reader cover removal detection (sensor that indicates cover has been removed)
+		Card readers powered by UPS power
+		Door actuators covered by UPS power (for AC powered) or by internal battery backup (DC powered)
+	Locks
+		Are locks changed/rotated on a schedule?
+		Are lock cylinders removable?
+		Double cylinder locks?   The *only* style of double-key (also known as double cylinder) deadbolt allowed is one that captures the key when locked from the inside -- you cannot remove the key when it is locked. Without this feature, a person who is disoriented and blinded by smoke can become trapped behind their own door when they cannot find the key to unlock it.
+		Case hardened padlocks?
+		Case hardened chains?
+		Are door locks and padlocks separate systems?
+		Are locks changed when security may be compromised?
+		Are all door hinge pins located internally, or welded to prevent easy removal?
+		Do doors with panic locks have auxiliary locks for when the building is not occupied?
+		Is roof access secured?
+	Keys
+		Implement commercial grade, security lock cylinders
+		Keep master keys secured
+		Ensure return when employees leave, change departments, etc
+		Track when keys are checked out to employees
+		Key secure/sensitive areas with unique locks/keys
+		Audit keys (employee assignment, check in/out, copies made, etc.)
+		Mark all keys “Do Not Copy”
+		Rekey locks to sensitive areas when employees with keys terminate employment
+		Are master keys controlled and tracked?
+		Is there a designated Key Officer?
+	Locks and Keycards Maintenance
+		Lock and Closure Inspection Schedule
+	Locks and Keycards Auditing
+		Audit card inventory to ensure return for termination and unassigned cards secured
+		Audit profiles to ensure business need and approved by manager/department head
+	Locks and Keycard Documentation
+		Lock and Closure Inspection Schedule
+		Lock numbers recorded
+		Key access records
+	
+Magnetic/SSD Media Storage
+	On-site storage
+		• Tape libraries and record storage within the data center should be protected by an
+		extinguishing system. It is recommended that they be stored in a fire safe vault with a
+		fire rating of more than 1 hour.
+	Off-site storage
+	Retention Policies
+	Regulatory requirements
+	Manufacturers' suggested standards
+	Disposal
+	Magnetic/SSD Media Storage Maintenance
+	Magnetic/SSD Media Storage Auditing
+	Magnetic/SSD Media Storage Documentation
+	
+Network Device Access
+	Equipment Racks
+		Key Locks
+	Device Enclosures
+		Key Locks
+	Network Device Access Maintenance
+	Network Device Access Auditing
+	Network Device Access Documentation
+
+Paper Documentation
+	Secure Storage of Permanent Documents
+	Fire-safe storage?
+	Water-safe storage?
+	Lockable Filing Cabinets
+	What Is Destroyed
+	Secure Disposal
+	Paper Documentation Maintenance
+	Paper Documentation Auditing
+	Paper Documentation 
+	
+Parking Access
+	Vehicle barriers for entrances
+	Are pathways and parking lots patrolled? 
+	Are pathways and parking lots equipped with emergency communication equipment that links to a centrally-monitored or police system?
+	Is reserve lot on facility grounds?
+	Is reserved area protected by fence?
+	Signage
+	Do reserved parking spaces block access to fire or emergency vehicles?
+	Fire or emergency vehicles parking?
+	Parking Access Maintenance
+	Parking Access Auditing
+	Parking Access Documentation
+	
+Physical Penetration Testing
+	Physical Penetration Testing Maintenance
+	Physical Penetration Testing Auditing
+	Physical Penetration Testing Documentation
+
+Power Access
+	No extension cords or power cords should be run under equipment, mats, or other covering.
+	Lockable Breaker Boxes
+	911 Backup Power
+	Uninterruptible Power Supply (UPS)
+	Generator backup?
+	Is generator secure?
+	Is generator fuel secure?
+	VoIP Backup Power
+	Power Access Maintenance
+	Power Access Auditing
+	Power Access Documentation
+	
+Shipping and Receiving
+	Secure dock/shipping areas at all times
+	Who handles incoming mail?
+	Is outgoing mail accessible only to the U.S. Postal Service or other designated carriers? 
+	Are all deliveries and delivery personnel monitored when inside the facility?
+	Are all incoming deliveries inspected before being delivered to the designated recipient?
+	Document deliveries and procedures
+	
+Structural Reinforcement
+	Sensitive Compartment Information Facilities (SCIFs)
+		Designed to allow for consistent operations within a contained areas within a facility that is more sensitive the rest of the facility
+		SCIFs require:
+			3 layers of 5/8" drywall
+			True floor and true ceiling
+			Bars within ducting to prevent people from coming in through ducts
+			More...
+	Facility Access
+	        All points to an area should be equally protected
+	FEMA
+	            FEMA 427 - Primer for Design of Commercial Buildings to Mitigate Terrorist Attacks
+	            FEMA 452 - Ho to Guide to Mitigate Potential Terrorist Attacks
+	            FEMA 453 - Safe Rooms and Shelters: Protecting People Against Terrorist Attacks
+	 New Zealand Ministry of Justice:
+	            Use security glass instead of bars
+	            Adding thorny shubbery to fences
+	            Use higher security value shutters than typical industrial rolling shutters.
+	
+	Ceilings
+		RF Resistant Paint
+			YShield High Frequency Shielding Paint
+			Easy to apply water-based paint for walls, ceilings, doors and other interior OR exterior surfaces. Very effective for blocking cell phone signals, CB, TV, AM, FM signals, radiofrequency radiation and microwaves. Tested highly effective up to 18 GHz!
+			Based on a high quality pure acrylic binder, this shielding paint offers a perfect compromise of excellent attenuation, high water resistance and good ecology. Good adhesion on many surfaces and substrates like latex paint, construction boards, cement, plaster, polystyrene, masonry surfaces, etc.
+			
+			
+			Frost-resistant liquid format, ready to use right out of the bottle. Easy to handle – roll similar to ordinary wall paint - and still achieve an amazing reduction of 99% of HF-Radiation with only one layer. Dries quickly. Water clean-up.
+			Due to its holohedral carbon structure, without fibers or meshes, it offers consistent attenuation regardless of the direction of signal polarization, and a highly conductive surface. As a bonus, carbon is a good RF absorber. About 10% of Y-Shield shielding effectiveness is due to absorption. This helps reduce reflections and minimizes the risk from RF sources trapped inside the shielded area.
+			
+			From <http://www.lessemf.com/paint.html> 
+		
+			Ground Kit for Y-Shield
+			Specially designed for grounding indoor flat surfaces like walls painted with Y-Shield. Provides secure connection. Connect to surface after Y-Shield has dried, but before overcoating. Ground cable included is 40 inches. Includes 25 feet of 1 inch wide conductive tape. Use at least 1 ground per 1000 sq ft of painted surface. For interior use only.
+			Click Here for complete grounding instructions (.pdf)
+			
+			Important note about conductive paint and the National Electric Code: 
+			There is nothing in the NEC which prohibits painting your walls with conductive paint. However, because this product does NOT carry a UL listing, some electrical inspectors, by virtue of being the “Authority Having Jurisdiction” can require the homeowner to hire an electrical engineer to certify that the product is safe to connect to the electrical ground. They can also require that a licensed electrician perform the ground connection. If your application requires an electrical inspection AFTER installation, you should check with your local inspector BEFORE you proceed to avoid any surprises.
+			
+			Ground Kit for Y-Shield (Cat. #A290-Grd) ........... $39.95
+			From <http://www.lessemf.com/paint.html> 
+		
+	Walls
+		Wire mesh for RF shielding
+		RF Resistant Paint
+	Floors
+		Minimum thickness concrete
+	Windows
+		If large panes of glass are installed in the building, are they laminated with a security film to prevent forced entry?
+		Forced Entry Ballistic Rated (FE/BR)
+		http://www.windowgard-security.com/brochures/WindowGard_9X.pdf
+		http://www.armorco.com/shop/custom.aspx?recid=6
+		http://www.trocal-profile.com/en/topics-and-trends/safe-protection-against-forced-entry-with-pvc-u-windows/
+		http://www.evva.at/services/faq/resistance-class-1-to-6/en/
+		http://www.aluplast.net/in-eng/privatkunden/sicherheit-und-einbruchschutz/index.php?navid=706194706194
+		http://www.windowgard-security.com/certification
+		https://www.saelzer-security.com/index.php/en/facts/security-standards/blast-resistance
+		http://www.armortex.com/products-services/forced-entry/
+	Doors
+		Forced Entry Ballistic Rated (FE/BR)
+		http://www.windowgard-security.com/brochures/WindowGard_990H94.pdf
+		http://www.armorco.com/shop/custom.aspx?recid=6
+		http://www.evva.at/services/faq/resistance-class-1-to-6/en/
+		http://www.aluplast.net/in-eng/privatkunden/sicherheit-und-einbruchschutz/index.php?navid=706194706194
+		http://www.windowgard-security.com/certification
+		https://www.saelzer-security.com/index.php/en/facts/security-standards/blast-resistance
+		http://www.armortex.com/products-services/forced-entry/
+		Tested to Department of State Standard SD-STD-01.01 Rev. G (Amended), Ross High Security Steel Doors combine DOS certified ballistic and forced-entry resistance with advanced materials and finishes to provide elevated threat protection and striking contemporary appeal. The “05” models are tested to withstand simulated ”mob” attack for 5 minutes. The “15R” models are tested to withstand 15 minutes of simulated “mob” attack and are also resistant to 5.56 M193, 5.56 M855 and 7.62 M80 ballistic rounds.
+		
+		From <http://www.rosstechnology.com/architectural-security/doors/dos-515-minute-febr/> 
+		
+	Structural Reinforcement Maintenance
+	Structural Reinforcement Auditing
+	Structural Reinforcement Documentation
+
+Surveillance 
+	Camera System and DVR
+	Real-time monitoring
+	Actively monitor cameras during business hours and, if possible, after business hours
+	Keep video footage for a minimum of 90 days
+	Ensure video cables are not exposed
+	Ensure cameras cannot be reached from the ground level or easily disabled
+	Ensure landscaping does not block cameras views
+	Ensure camera view of dumpsters and dock/garage/shipping areas
+	Ensure cameras cover exterior doors and ground-level windows
+	Ensure cameras cover all entrances/exits including employee entrances and parking areas
+	Surveillance Maintenance
+	Surveillance Auditing
+	Surveillance Documentation
+	
+Training Program
+	Create a security training program with multiple levels:
+		Staff Member
+		Administrator
+		Security Staff
+		
+Vehicles Access
+	Telematics Gateway Unit (TGU) firmware update
+	Telematics Gateway Unit (TGU) disable telnet
+	Vehicles Access Maintenance
+	Vehicles Access Auditing
+	Vehicles Access Documentation
+	
+Work Areas
+	Ensure monitors, marker boards and projector screens cannot be easily read through windows
+	Are curtains, blinds or other privacy providing covers installed on all windows?
+	Clean desk policy
+	
+Visitor Access
+	Sign-In/Sign-out
+	Waiting Area
+		Are there drop ceilings in the waiting are?
+		Is there adequate room for the public to review documents if necessary?
+		Are public restrooms available?
+		Are public restrooms routinely searched?
+		Do trash receptacles allow easy concealment of contraband?
+		Is signage in plain view?
+	Chaperoning
+	Badge/card access
+		Do all visitors have visitor badges?
+		Do all employees have ID Badges with their picture on it?
+	Non-disclosure agreements
+	Security Signage
+	Random check of briefcases, boxes or portable PCs 
+	Are employees instructed to visibly display security badges?
+	Are employees instructed to challenge anyone not wearing a security or visitors badge?
+	Inspect vendor vehicles?
+	Do vendor vehicles have identifying signage/decal?
+	Is there a maintained list of authorized vendors?
+	Designated high-risk visitor zones
+	Designated low-risk visitor zones
+	Designated Secure Zones - no visitors
+	Visitor Access Maintenance
+	Visitor Access Auditing
+
+Visitor Access Documentation
